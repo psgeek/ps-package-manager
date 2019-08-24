@@ -10,10 +10,10 @@ There are two phases to this initiative:
 •	Phase 2:  Collaboration space for community-driven bolt-on projects.
 
 ***************************************************************************
-Special Note on this repository.
-***************************************************************************
-The GitHub repository "ps-package-manager" is focused on phase 1.
+Special Note on this repository:
 
+The GitHub repository "ps-package-manager" is focused on phase 1.
+***************************************************************************
 
 Phase 1 - For existing projects, allow an effortless “package manager” to:
 •	Find projects that are in beta testing or ready for prime time.  The listing of projects would be in a customer’s own development environment.
