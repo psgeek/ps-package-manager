@@ -5,6 +5,7 @@ Project Charter:
 
 Create a seamless connection between a customer’s development environment and GitHub, for both easy download of existing free projects (such as Process Monitor 2.0) and “work in process” projects (efforts to collaborate on new bolt-on code, interactively).
 
+***************************************************************************
 Phases:
 
 There are two phases to this initiative:
