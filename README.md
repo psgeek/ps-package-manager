@@ -1,5 +1,4 @@
-# ps-package-manager
-PeopleSoft Package Manager (PS to GitHub Integration)
+# PeopleSoft Package Manager (PS to GitHub Integration)
 
 Project Charter:
 
