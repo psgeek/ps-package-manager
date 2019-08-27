@@ -1,14 +1,15 @@
-# PeopleSoft Package Manager (PS to GitHub Integration)
+# PeopleSoft Package Manager (PeopleSoft/GitHub Integration)
 ## Project Charter
-Create a seamless connection between a customer’s development environment and GitHub, for both easy download of existing free projects (such as Process Monitor 2.0) and “work in process” projects (efforts to collaborate on new bolt-on code, interactively).
+Create a seamless connection between a customer’s development environment and GitHub, for both easy downloading of existing free projects (such as Process Monitor 2.0) and “work in process” projects (efforts to collaborate on new bolt-on code, interactively).
 ***
 ## Files
-Z_PSPM_PACKAGE_MANAGER_v0.2.zip - Contains second draft of Setup page, for Package Manager.
-Z_PSPM_PACKAGE_MANAGER_v0.1.zip - Contains first draft of Setup page, for Package Manager.
+* Z_PSPM_PACKAGE_MANAGER_v0.2.zip - Contains second draft of Setup page, for Package Manager.
+* Z_PSPM_PACKAGE_MANAGER_v0.1.zip - Contains first draft of Setup page, for Package Manager.
+* Screenshots folder - Examples of pages from PeopleSoft.
 ## Phases
 There are two phases to this initiative:
-* Phase 1:  GitHub Package Manager page where customers can review, install and receive updates for GitHub projects.
-* Phase 2:  Collaboration space for community-driven bolt-on projects.
+* Phase 1:  GitHub Package Manager page where customers can review, install and receive updates for GitHub projects.  (GitHub --> PeopleSoft)
+* Phase 2:  Collaboration space for community-driven bolt-on projects.  (GitHub <--> PeopleSoft)
 ***
 ### Special Note on this repository
 The GitHub repository "ps-package-manager" is focused on phase 1.
