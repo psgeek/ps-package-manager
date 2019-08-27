@@ -8,6 +8,7 @@ Create a seamless connection between a customer’s development environment and 
 ***************************************************************************
 Files:
 
+Z_PSPM_PACKAGE_MANAGER_v0.2.zip - Contains second draft of Setup page, for Package Manager.
 Z_PSPM_PACKAGE_MANAGER_v0.1.zip - Contains first draft of Setup page, for Package Manager.
 
 ***************************************************************************
