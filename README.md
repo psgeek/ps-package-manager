@@ -15,7 +15,7 @@ There are two phases to this initiative:
 The GitHub repository "ps-package-manager" is focused on phase 1.
 ***
 ### Phase 1
-Phase 1 - For existing projects, allow an effortless “package manager” to:
+Design an effortless **package manager**
 * Find projects that are in beta testing or ready for prime time.  The listing of projects would be in a customer’s own development environment.
 * Allow the customer to do “1-click” installations, from the page that lists all of the available GitHub projects.
 * Allow the customer to see installed projects, and any updates pending.
@@ -25,7 +25,7 @@ Phase 1 - For existing projects, allow an effortless “package manager” to:
 * Provide the instructions for migration to test and production.
 ***
 ### Phase 2
-Phase 2 - For Collaboration Projects:
+Collaboration on GitHub Projects (Repositories)
 * Allow a customer to sign up for new or on-going projects being run by a community member.
 * Allow the customer to download any existing code as a starting point.
 * Allow the customer to add or modify code/objects, and submit them back to GitHub for community review or pull request.
