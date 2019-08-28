@@ -3,7 +3,7 @@
 Create a seamless connection between a customer’s development environment and GitHub, for both easy downloading of existing free projects (such as Process Monitor 2.0) and “work in process” projects (efforts to collaborate on new bolt-on code, interactively).
 ***
 ## Files
-* Z_PSPM_PACKAGE_MANAGER_v0.2.zip - Contains second draft of Setup page, for Package Manager.
+* Z_PSPM_PACKAGE_MANAGER_v0.x.zip - Contains latest code.  Until the release is version 1, it is only partially operable.
 * Screenshots folder - Examples of pages from PeopleSoft.
 ## Phases
 There are two phases to this initiative:
