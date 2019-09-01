@@ -4,7 +4,7 @@ Create a seamless connection between a customer’s development environment and 
 ***
 ## Files
 * Z_PSPM_PACKAGE_MANAGER_v0.x.zip - Contains latest code.  Until the release is version 1, it is only partially operable.
-* Screenshots folder - Examples of pages from PeopleSoft.
+* [Screenshots folder](/screenshots/) - Examples of pages from PeopleSoft.
 ## Phases
 There are two phases to this initiative:
 * Phase 1:  GitHub Package Manager page where customers can review, install and receive updates for GitHub projects.  (GitHub --> PeopleSoft)
@@ -21,7 +21,9 @@ Design an effortless **package manager**
 * Allow the customer to do “1-click” upgrades, to existing projects.
 * Provide a compare report of what changes would be introduced, if a new project (or an update) were installed.
 * Provide an information sheet on what each project can provide.  Possibly have screenshots.
-* Provide the instructions for migration to test and production.
+* Provide the instructions for migration to test and production.  
+
+[Details on Design for Phase 1](/design-phase1/readme.md)
 ***
 ### Phase 2
 Collaboration on GitHub Projects (Repositories)
