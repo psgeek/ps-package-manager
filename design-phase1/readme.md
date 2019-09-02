@@ -19,3 +19,4 @@ Some of these tasks will be combined together to form a single action (for the l
 * [ ] Allow SQL Build/Alters/Create Views to be done on the installed project. **Group 1**
   - :+1: First test is successful.  Was able to run a SQL Build on a project, in Linux, using PSIDEX.
 * [ ] Allow user to specify different Build options. **Group 3**
+* [ ] Create SVG icon for Portal Structure and Content Fluid Icon. **Group 3**
