@@ -9,7 +9,7 @@
 * Allow a compare for any project listed on the PackMan page.
 * Allow a project to be installed.
 ### Tasks
-Some of these tasks will be combined together to form a single action (for the list above).
+Some of these tasks will be combined together to form a single action (for the list above).  **Group** represents the priority/order needed for the project, though different people can work ahead on Group 2 or 3.
 * [ ] Get List of all active/approved GitHub App Designer projects, for possible download. **Group 2**
 * [ ] Determine if the GitHub list of projects are already installed in the host system. **Group 3**
 * [ ] List any pending updates for prior installed GitHub projects. **Group 3**
@@ -18,3 +18,4 @@ Some of these tasks will be combined together to form a single action (for the l
 * [ ] Allow import of project into host system. **Group 1**
 * [ ] Allow SQL Build/Alters/Create Views to be done on the installed project. **Group 1**
   - :+1: First test is successful.  Was able to run a SQL Build on a project, in Linux, using PSIDEX.
+* [ ] Allow user to specify different Build options. **Group 3**
