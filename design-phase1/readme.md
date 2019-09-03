@@ -1,4 +1,9 @@
 # Design For Phase 1
+### Quick Definitions
+* The term *App Designer* represents PeopleTools' *Application Designer*.
+* The term *project* might represent an App Designer *project*, or a GitHub *Repository*.
+* The term *PackMan* is short for this repository: *PeopleSoft Package Manager*.
+* The term *host system* represents the *PeopleSoft development environment* that PackMan is running in.
 ### Pulling From GitHub Methodologies
 * Phase 1 will pull projects from GitHub.  
   - It will not use GitHub Cloning or allow two-directional code migration.
@@ -7,11 +12,6 @@
 * Phase 2 will use GitHub Cloning to take full advantage of GitHub's versioning.  
   - Project files may need to be converted from App Designer objects to a text based directory structure, where code can be seen easily in a directory hierarchy, and thus can be synced to/from GitHub.
   - Once a project is ready for a public release, the text-based directory will be imported into App Designer, and an official App Designer project will be exported using the standard methods (Copy to File).
-### Quick Definitions
-* The term *App Designer* represents PeopleTools' *Application Designer*.
-* The term *project* might represent an App Designer *project*, or a GitHub *Repository*.
-* The term *PackMan* is short for this repository: *PeopleSoft Package Manager*.
-* The term *host system* represents the *PeopleSoft development environment* that PackMan is running in.
 ### Actions
 * Load the list of available GitHut App Designer projects, when the PackMan page first loads.
 * Allow a compare for any project listed on the PackMan page.
