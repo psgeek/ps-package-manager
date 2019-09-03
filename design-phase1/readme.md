@@ -14,6 +14,9 @@ Some of these tasks will be combined together to form a single action (for the l
 * [ ] Determine if the GitHub list of projects are already installed in the host system. **Group 3**
 * [ ] List any pending updates for prior installed GitHub projects. **Group 3**
 * [ ] Download the Project files  from GitHub to folder on the host system's server. **Group 1**
+```
+curl https://github.com/psgeek/ps-process-monitor-2/archive/master.zip --location --insecure --show-error --silent --output sample.zip
+```
 * [ ] Allow an App Designer compare to be done against the host system. **Group 2**
 * [ ] Allow import of project into host system. **Group 1**
 * [ ] Allow SQL Build/Alters/Create Views to be done on the installed project. **Group 1**
