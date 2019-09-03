@@ -1,4 +1,5 @@
 # Design For Phase 1
+### Pulling From GitHub Methodologies
 * Phase 1 will pull projects from GitHub.  
   - It will not use GitHub Cloning or allow two-directional code migration.
   - The core migration is simply a download of the App Designer file project (one directory, with an INI and XML file).
