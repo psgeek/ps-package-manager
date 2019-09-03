@@ -9,19 +9,24 @@
 * Allow a compare for any project listed on the PackMan page.
 * Allow a project to be installed.
 ### Tasks
-Some of these tasks will be combined together to form a single action (for the list above).  **Group** represents the priority/order needed for the project, though different people can work ahead on Group 2 or 3.
-* [ ] Get List of all active/approved GitHub App Designer projects, for possible download. **Group 2**
-* [ ] Determine if the GitHub list of projects are already installed in the host system. **Group 3**
-* [ ] List any pending updates for prior installed GitHub projects. **Group 3**
-* [ ] Download the Project files  from GitHub to folder on the host system's server. **Group 1**
+Some of these tasks will be combined together to form a single action (for the list above).  **Group** represents the priority/order needed for the project, though different people can work ahead on Group 2 or 3.  Once Group 1 is complete, we'll have a working proof of concept.
+* [ ] Download the Project files from GitHub to a folder on the host system's server. **Group 1**
+  - :+1: First test is successful.  Was able to use Windows Command Prompt to download, using curl.
+  - Next: Need to code into App Engine, and test on Windows and Linux.
+  - May run into issue with PUM not being able to pull from Internet.
 ```
 Examples using curl to retrieve GitHub files, without cloning.
 curl https://github.com/psgeek/ps-process-monitor-2/archive/master.zip --location --insecure --show-error --silent --output sample.zip
 curl https://github.com/psgeek/ps-process-monitor-2/raw/master/Z_PSGEEK_PROCESS_MONITOR_2.7.1.zip --location --insecure --show-error --silent --output sample.zip
 ```
-* [ ] Allow an App Designer compare to be done against the host system. **Group 2**
 * [ ] Allow import of project into host system. **Group 1**
+  - Should be able to leverage psidex work already done with SQL Alters.
 * [ ] Allow SQL Build/Alters/Create Views to be done on the installed project. **Group 1**
   - :+1: First test is successful.  Was able to run a SQL Build on a project, in Linux, using PSIDEX.
+  - For now, we'll use a customized version of the SQL Build config file, called pspm.cfg.
+* [ ] Get List of all active/approved GitHub App Designer projects, for possible download. **Group 2**
+* [ ] Allow an App Designer compare to be done against the host system. **Group 2**
+* [ ] Determine if the GitHub list of projects are already installed in the host system. **Group 3**
+* [ ] List any pending updates for prior installed GitHub projects. **Group 3**
 * [ ] Allow user to specify different Build options. **Group 3**
 * [ ] Create SVG icon for Portal Structure and Content Fluid Icon. **Group 3**
