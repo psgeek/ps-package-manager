@@ -15,7 +15,9 @@ Some of these tasks will be combined together to form a single action (for the l
 * [ ] List any pending updates for prior installed GitHub projects. **Group 3**
 * [ ] Download the Project files  from GitHub to folder on the host system's server. **Group 1**
 ```
+Examples using curl to retrieve GitHub files, without cloning.
 curl https://github.com/psgeek/ps-process-monitor-2/archive/master.zip --location --insecure --show-error --silent --output sample.zip
+curl https://github.com/psgeek/ps-process-monitor-2/raw/master/Z_PSGEEK_PROCESS_MONITOR_2.7.1.zip --location --insecure --show-error --silent --output sample.zip
 ```
 * [ ] Allow an App Designer compare to be done against the host system. **Group 2**
 * [ ] Allow import of project into host system. **Group 1**
