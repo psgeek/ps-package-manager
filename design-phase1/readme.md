@@ -1,4 +1,11 @@
 # Design For Phase 1
+* Phase 1 will pull projects from GitHub.  
+  - It will not use GitHub Cloning or allow two-directional code migration.
+  - The core migration is simply a download of the App Designer file project (one directory, with an INI and XML file).
+  - A zip version of the App Designer project may be utilized.  TBD.
+* Phase 2 will use GitHub Cloning to take full advantage of GitHub's versioning.  
+  - Project files may need to be converted from App Designer objects to a text based directory structure, where code can be seen easily in a directory hierarchy, and thus cloned/synced to/from GitHub.
+  - Once a project is ready for a public release, the text-based directory will be imported into App Designer, and an official App Designer project will be exported using the standard methods (Copy to File).
 ### Quick Definitions
 * The term *App Designer* represents PeopleTools' *Application Designer*.
 * The term *project* might represent an App Designer *project*, or a GitHub *Repository*.
